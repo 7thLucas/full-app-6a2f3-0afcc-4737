@@ -38,6 +38,7 @@ Buyers and sellers transact with full confidence knowing every stone is verified
 Authoritative, precise, and trustworthy. Premium without being inaccessible — calm confidence rather than hype.
 
 ## Strategic Principles
+- **Speed to authentication** — instant results are the trust mechanism; if verification takes days, the transaction stalls and doubt wins
 - Verification happens at the moment of sale, not after the fact
 - Speed and credibility in a single step — seconds, not days
 - Certificate-backed results that travel with the transaction (Pro Plan)
