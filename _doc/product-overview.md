@@ -29,7 +29,7 @@ Purpose-built for precious stones at the point of sale. Generic appraisal servic
 | Pro Plan | $79/month | Unlimited verifications + PDF certificate |
 
 ## Target Outcome
-Buyers and sellers transact with full confidence knowing every stone is verified and genuine.
+Buyers, sellers, and personal collectors transact or collect with full confidence knowing every stone is verified and genuine.
 
 ## Proof Points
 - Early access cohort onboarding now
