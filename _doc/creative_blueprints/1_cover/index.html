@@ -1,0 +1,55 @@
+<style>
+  .mode-landscape .sl-layout { flex-direction: row; }
+  .mode-portrait .sl-layout { flex-direction: column; }
+  .mode-landscape .sl-content { width: 55%; }
+  .mode-portrait .sl-content { width: 100%; height: 60%; }
+  .mode-landscape .sl-visual { width: 45%; }
+  .mode-portrait .sl-visual { width: 100%; height: 40%; }
+</style>
+
+<section class="w-full h-full bg-white overflow-auto">
+  <div class="sl-layout flex h-full">
+
+    <!-- Left: editorial text column -->
+    <div class="sl-content flex flex-col justify-between p-12">
+      <div>
+        <div class="flex items-center gap-3 mb-8">
+          <div class="w-8 h-px bg-amber-500"></div>
+          <span class="text-xs font-bold tracking-widest text-amber-600 uppercase">Precious Stone Authenticity</span>
+        </div>
+        <h1 class="font-black text-slate-900 leading-none mb-5" style="font-size: 3.2rem;">
+          Never Get<br />Deceived<br />Again.
+        </h1>
+        <p class="text-base text-slate-500 leading-relaxed" style="max-width: 300px;">
+          Instant digital verification purpose-built for precious stones — at the exact moment trust matters most.
+        </p>
+      </div>
+      <div>
+        <div class="flex items-center gap-3 mb-5">
+          <span class="bg-slate-900 text-white text-xs font-semibold px-3 py-1.5 rounded-full">$9 per verification</span>
+          <span class="text-slate-400 text-xs">or $79/mo Pro Plan</span>
+        </div>
+        <data-attribution />
+      </div>
+    </div>
+
+    <!-- Right: visual column -->
+    <div class="sl-visual relative overflow-hidden" style="background: #0f172a;">
+      <img
+        src="https://api.qb-deck.quantumbyte.ai/common/image-generation?prompt=precious+gemstone+diamond+ruby+sapphire+close+up+luxury+dark+background+authentication+sparkle+elegant+macro+photography"
+        alt="Precious stone"
+        class="w-full h-full object-cover"
+        style="opacity: 0.72;"
+      />
+      <div class="absolute inset-0" style="background: linear-gradient(135deg, rgba(15,23,42,0.55) 0%, rgba(15,23,42,0.08) 100%);"></div>
+      <div class="absolute bottom-8 right-8 rounded-xl p-4" style="background: rgba(0,0,0,0.38); border: 1px solid rgba(255,255,255,0.18);">
+        <div class="flex items-center gap-2 mb-1">
+          <div class="w-2 h-2 rounded-full" style="background: #4ade80;"></div>
+          <span class="text-white text-xs font-bold tracking-wider">AUTHENTICITY VERIFIED</span>
+        </div>
+        <div class="text-xs" style="color: rgba(255,255,255,0.52);">Verified at point of sale</div>
+      </div>
+    </div>
+
+  </div>
+</section>
