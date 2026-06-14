@@ -1,0 +1,82 @@
+<style>
+  .mode-landscape .sl-layout { flex-direction: row; }
+  .mode-portrait .sl-layout { flex-direction: column; }
+  .mode-landscape .sl-problem { width: 50%; }
+  .mode-portrait .sl-problem { width: 100%; height: 50%; }
+  .mode-landscape .sl-solution { width: 50%; }
+  .mode-portrait .sl-solution { width: 100%; height: 50%; }
+</style>
+
+<section class="w-full h-full bg-white overflow-auto">
+  <div class="sl-layout flex h-full">
+
+    <!-- Problem side (dark) -->
+    <div class="sl-problem flex flex-col justify-between p-10" style="background: #0f172a;">
+      <div>
+        <div class="flex items-center gap-2 mb-5">
+          <div class="w-1 h-4 rounded-full" style="background: #ef4444;"></div>
+          <span class="text-xs font-bold tracking-widest uppercase" style="color: #94a3b8;">The Problem</span>
+        </div>
+        <h2 class="text-2xl font-bold leading-snug mb-4" style="color: #f8fafc;">
+          Precious stones change hands on trust alone.
+        </h2>
+        <p class="text-sm leading-relaxed mb-6" style="color: #94a3b8;">
+          Generic appraisals are slow, expensive, and unavailable at the point of sale. Fraud and counterfeit stones go undetected. Buyers risk financial loss; sellers risk reputation. Deals collapse because credibility can't be proved in the moment.
+        </p>
+        <div class="space-y-3">
+          <div class="flex items-start gap-3">
+            <span style="color: #f87171; margin-top: 1px; flex-shrink: 0;">✗</span>
+            <span class="text-sm" style="color: #94a3b8;">Counterfeit stones are nearly impossible to spot without expert tools</span>
+          </div>
+          <div class="flex items-start gap-3">
+            <span style="color: #f87171; margin-top: 1px; flex-shrink: 0;">✗</span>
+            <span class="text-sm" style="color: #94a3b8;">Traditional appraisals take days — not seconds</span>
+          </div>
+          <div class="flex items-start gap-3">
+            <span style="color: #f87171; margin-top: 1px; flex-shrink: 0;">✗</span>
+            <span class="text-sm" style="color: #94a3b8;">No portable, credible proof available at the transaction moment</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Solution side (light) -->
+    <div class="sl-solution flex flex-col justify-between p-10 bg-white">
+      <div>
+        <div class="flex items-center gap-2 mb-5">
+          <div class="w-1 h-4 rounded-full bg-amber-500"></div>
+          <span class="text-xs font-bold tracking-widest text-amber-600 uppercase">The Solution</span>
+        </div>
+        <h2 class="text-2xl font-bold text-slate-900 leading-snug mb-4">
+          Certified authenticity — at the point of sale, in seconds.
+        </h2>
+        <p class="text-sm text-slate-500 leading-relaxed mb-6">
+          A purpose-built digital platform that delivers instant authenticity verification exactly when and where trust is needed. Every stone gets a traceable, credible result. Every party transacts with full confidence.
+        </p>
+        <div class="space-y-3">
+          <div class="flex items-start gap-3">
+            <span class="text-green-600 flex-shrink-0" style="margin-top: 1px;">✓</span>
+            <span class="text-sm text-slate-700">Certified authenticity verification — results in seconds</span>
+          </div>
+          <div class="flex items-start gap-3">
+            <span class="text-green-600 flex-shrink-0" style="margin-top: 1px;">✓</span>
+            <span class="text-sm text-slate-700">Fraud and counterfeit protection at the transaction moment</span>
+          </div>
+          <div class="flex items-start gap-3">
+            <span class="text-green-600 flex-shrink-0" style="margin-top: 1px;">✓</span>
+            <span class="text-sm text-slate-700">PDF certificate with Pro Plan — shareable, portable proof</span>
+          </div>
+        </div>
+      </div>
+      <div class="mt-4">
+        <img
+          src="https://api.qb-deck.quantumbyte.ai/common/image-generation?prompt=professional+gemologist+examining+precious+gemstone+loupe+clean+studio+lighting+authentication+jewelry+verification+expert"
+          alt="Stone verification"
+          class="w-full rounded-xl object-cover"
+          style="max-height: 130px;"
+        />
+      </div>
+    </div>
+
+  </div>
+</section>
