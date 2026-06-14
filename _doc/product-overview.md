@@ -1,4 +1,7 @@
-# Precious Stone Authenticity
+# GEMRITE
+
+## App Name
+GEMRITE
 
 ## Product
 A digital verification platform that delivers instant, certified authenticity checks for precious stones at the exact point of sale.
