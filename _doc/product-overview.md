@@ -7,8 +7,9 @@ A digital verification platform that delivers instant, certified authenticity ch
 Instantly verify any precious stone so you never get deceived again.
 
 ## Target Users
-- **Buyers** — individuals, collectors, and investors purchasing precious stones who need confidence in authenticity before completing a transaction
+- **Buyers** — individuals and investors purchasing precious stones who need confidence in authenticity before completing a transaction
 - **Sellers / Dealers / Jewelers** — merchants, traders, and jewelers who need to prove stone authenticity and build trusted buyer relationships at the point of sale
+- **Personal Collectors** — hobbyists and enthusiasts who verify stones for their own collection, independent of any commercial transaction
 
 ## Positioning
 Unlike generic appraisal services, this platform delivers instant digital verification purpose-built for precious stones at the point of sale — combining speed, certificate-backed credibility, and fraud protection in a single workflow.
